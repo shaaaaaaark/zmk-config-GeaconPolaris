@@ -11,7 +11,7 @@
             io-channels = <&adc 2>;
             mv-mid = <1600>;
             mv-min-max = <1600>;
-            mv-deadzone = <88>;
+            mv-deadzone = <150>;
             scale-multiplier = <1>;
             scale-divisor = <800>;
             invert;
@@ -22,7 +22,7 @@
             io-channels = <&adc 3>;
             mv-mid = <1600>;
             mv-min-max = <1600>;
-            mv-deadzone = <88>;
+            mv-deadzone = <150>;
             scale-multiplier = <1>;
             scale-divisor = <800>;
             invert;
@@ -50,6 +50,13 @@
 
 &adc {
 	status = "okay";
+};
+
+&scroll_runtime_input_processor {
+    x-codes = <INPUT_REL_X>;
+    y-codes = <INPUT_REL_Y>;
+    xy-to-scroll-enabled;
+    scale-divisor = <60>;
 };
 
 &left_encoder {
