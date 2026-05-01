@@ -56,7 +56,6 @@
     x-codes = <INPUT_REL_X>;
     y-codes = <INPUT_REL_Y>;
     xy-to-scroll-enabled;
-    scale-divisor = <60>;
 };
 
 &left_encoder {
