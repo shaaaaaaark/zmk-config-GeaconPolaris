@@ -52,11 +52,6 @@
 	status = "okay";
 };
 
-&scroll_runtime_input_processor {
-    x-codes = <INPUT_REL_X>;
-    y-codes = <INPUT_REL_Y>;
-};
-
 &left_encoder {
     a-gpios = <&gpio1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     b-gpios = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
