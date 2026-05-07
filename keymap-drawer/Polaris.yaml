@@ -49,7 +49,7 @@ layers:
   - RIGHT
   - LEFT
   - UP
-  - SPACE
+  - '&mkp LCLK'
   - DOWN
   - RIGHT
   - '&mkp MB1'
