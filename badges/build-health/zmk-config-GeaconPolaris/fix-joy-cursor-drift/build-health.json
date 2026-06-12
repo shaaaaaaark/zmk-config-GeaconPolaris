@@ -1,0 +1,13 @@
+{
+  "repository": "shaaaaaaark/zmk-config-GeaconPolaris",
+  "branch": "fix/joy-cursor-drift",
+  "target": "all",
+  "status": "passing",
+  "raw_status": "success",
+  "color": "#2ea44f",
+  "sha": "d443c81677f0f75692cfb2d8345b7bf07c4c0c87",
+  "run_id": "27437439667",
+  "run_number": "14",
+  "run_url": "https://github.com/shaaaaaaark/zmk-config-GeaconPolaris/actions/runs/27437439667",
+  "generated_at": "2026-06-12T19:20:12Z"
+}
