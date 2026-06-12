@@ -242,7 +242,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-48 " transform="translate(446 272.605) rotate(0 -416 -260)">
 <rect x="0" y="0" width="26" height="26" rx="6" ry="6"/>
-<text class="tap" x="13" y="13">SPC</text>
+<text class="tap" x="13" y="7">LCLK</text>
+<text class="hold" x="13" y="24">MOUSE</text>
 </g>
 <g class="key keypos-49 " transform="translate(446 298.605) rotate(0 -416 -286)">
 <rect x="0" y="0" width="26" height="26" rx="6" ry="6"/>
