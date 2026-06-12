@@ -23,6 +23,30 @@
             #binding-cells = <1>;
             label = "LAYOUT_SHIFT_KEY_PRESS";
         };
+
+        rsr_vol: rsr_vol {
+            compatible = "zmk,behavior-runtime-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            tap-ms = <5>;
+            cw-binding = <&kp C_VOL_UP>;
+            ccw-binding = <&kp C_VOL_DN>;
+        };
+
+        // mouse scroll
+        rsr_msch: rsr_msch {
+			compatible = "zmk,behavior-runtime-sensor-rotate";
+			#sensor-binding-cells = <0>;
+			tap-ms = <20>;
+			cw-binding = <&msc SCRL_DOWN>;
+			ccw-binding = <&msc SCRL_UP>;
+		};
+        rsr_mscv: rsr_mscv {
+			compatible = "zmk,behavior-runtime-sensor-rotate";
+			#sensor-binding-cells = <0>;
+			tap-ms = <20>;
+			cw-binding = <&msc SCRL_RIGHT>;
+			ccw-binding = <&msc SCRL_LEFT>;
+		};
     };
 };
 
@@ -63,7 +87,7 @@
 &mo SCROLL    &mo SSNIPE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&rsr_msch>;
         };
 
         function_layer {
@@ -77,9 +101,7 @@
 &trans     &trans
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>,
-                <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&rsr_mscv>;
         };
 
         num_layer {
@@ -93,7 +115,7 @@
 &trans           &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         snipe_layer {
@@ -107,7 +129,7 @@
 &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         bt_layer {
@@ -121,7 +143,7 @@
 &trans      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         scroll_layer {
@@ -135,7 +157,7 @@
 &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         SSNIPE_layer {
@@ -149,7 +171,7 @@
 &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };

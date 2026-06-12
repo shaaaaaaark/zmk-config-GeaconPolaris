@@ -1,0 +1,13 @@
+{
+  "repository": "shaaaaaaark/zmk-config-GeaconPolaris",
+  "branch": "main",
+  "target": "all",
+  "status": "passing",
+  "raw_status": "success",
+  "color": "#2ea44f",
+  "sha": "8510708f991cb3a18f63912e20c9da80d0f8ae67",
+  "run_id": "27412100068",
+  "run_number": "13",
+  "run_url": "https://github.com/shaaaaaaark/zmk-config-GeaconPolaris/actions/runs/27412100068",
+  "generated_at": "2026-06-12T11:20:26Z"
+}
