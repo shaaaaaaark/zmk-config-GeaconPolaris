@@ -73,23 +73,23 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&iqs_split>;
-        input-processors = <&zip_xy_scaler 1 144>,
-                           <&zip_scroll_scaler 1 240>,
+        input-processors = <&zip_xy_scaler 1 288>,
+                           <&zip_scroll_scaler 1 480>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
 
         lowspeedmode {
             layers = <1>, <2>;
-            input-processors = <&zip_xy_scaler 1 216>,
-                               <&zip_scroll_scaler 1 400>,
+            input-processors = <&zip_xy_scaler 1 432>,
+                               <&zip_scroll_scaler 1 800>,
                                <&zip_dynamic_xy_scaler>,
                                <&zip_dynamic_scroll_scaler>;
         };
 
         snipemode {
             layers = <3>;
-            input-processors = <&zip_xy_scaler 1 288>,
-                               <&zip_scroll_scaler 1 480>,
+            input-processors = <&zip_xy_scaler 1 576>,
+                               <&zip_scroll_scaler 1 960>,
                                <&zip_dynamic_xy_scaler>,
                                <&zip_dynamic_scroll_scaler>;
         };
