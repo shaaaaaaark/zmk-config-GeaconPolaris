@@ -89,15 +89,13 @@
 };
 
 &iqs_listener {
-    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>,
-                       <&iqs_pinch_behaviors>,
+    input-processors = <&iqs_pinch_behaviors>,
                        <&zip_xy_scaler 1 4>,
                        <&zip_scroll_scaler 1 30>,
                        <&mouse_runtime_input_processor>;
 
     lowspeedmode {
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>,
-                           <&iqs_pinch_behaviors>,
+        input-processors = <&iqs_pinch_behaviors>,
                            <&zip_xy_scaler 1 12>,
                            <&zip_scroll_scaler 1 30>,
                            <&mouse_runtime_input_processor>;
