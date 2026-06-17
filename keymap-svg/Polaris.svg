@@ -1465,25 +1465,30 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
 <text class="tap" x="26" y="26">TRANS</text>
 </g>
-<g class="key keypos-30 transparent" transform="translate(628.52 194.605) rotate(-5 26 26)">
+<g class="key keypos-30 " transform="translate(628.52 194.605) rotate(-5 26 26)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">ZDS_XY ZDS_INC</text>
+<text class="hold" x="26" y="37">zip_dyn_scale</text>
 </g>
-<g class="key keypos-31 transparent" transform="translate(680.52 187.845) rotate(-10 26 26)">
+<g class="key keypos-31 " transform="translate(680.52 187.845) rotate(-10 26 26)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">ZDS_XY ZDS_DEC</text>
+<text class="hold" x="26" y="37">zip_dyn_scale</text>
 </g>
-<g class="key keypos-32 transparent" transform="translate(731.48 177.965) rotate(-10 26 26)">
+<g class="key keypos-32 " transform="translate(731.48 177.965) rotate(-10 26 26)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">ZDS_SC ZDS_INC</text>
+<text class="hold" x="26" y="37">zip_dyn_scale</text>
 </g>
-<g class="key keypos-33 transparent" transform="translate(783.48 170.685) rotate(-5 26 26)">
+<g class="key keypos-33 " transform="translate(783.48 170.685) rotate(-5 26 26)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">ZDS_SC ZDS_DEC</text>
+<text class="hold" x="26" y="37">zip_dyn_scale</text>
 </g>
-<g class="key keypos-34 transparent" transform="translate(849 194.605) rotate(0 -598 -195)">
+<g class="key keypos-34 " transform="translate(849 194.605) rotate(0 -598 -195)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">TRANS</text>
+<text class="tap" x="26" y="20">ZDS_ALL ZDS_RST</text>
+<text class="hold" x="26" y="37">zip_dyn_scale</text>
 </g>
 <g class="key keypos-35 transparent" transform="translate(30 220.605) rotate(0 0 -208)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
