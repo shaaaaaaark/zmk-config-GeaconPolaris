@@ -111,7 +111,7 @@
         #input-processor-cells = <0>;
         type = <INPUT_EV_KEY>;
         codes = <INPUT_BTN_5 INPUT_BTN_6>;
-        bindings = <&kp LC(UP) &kp LC(DOWN)>;
+        bindings = <&kp LG(TAB) &kp LG(D)>;
     };
 };
 
