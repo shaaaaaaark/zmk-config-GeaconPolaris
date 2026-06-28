@@ -5,9 +5,9 @@
   "status": "passing",
   "raw_status": "success",
   "color": "#2ea44f",
-  "sha": "6bec31ff4d9264b1de5d122e19848f96cd679743",
-  "run_id": "28301920485",
-  "run_number": "57",
-  "run_url": "https://github.com/shaaaaaaark/zmk-config-GeaconPolaris/actions/runs/28301920485",
-  "generated_at": "2026-06-27T21:17:31Z"
+  "sha": "36ffc2f0bd07d4479f13a150141f6facf27c7abe",
+  "run_id": "28336106873",
+  "run_number": "58",
+  "run_url": "https://github.com/shaaaaaaark/zmk-config-GeaconPolaris/actions/runs/28336106873",
+  "generated_at": "2026-06-28T21:16:20Z"
 }
